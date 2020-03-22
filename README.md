@@ -1,4 +1,6 @@
 # Job Satisfaction Themes
+![Office Space](https://thumbs.gfycat.com/CheerfulMassiveDrafthorse-small.gif)
+
 Used unsupervised NLP/NLU to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
 
 - Web-scraped 250,000 Fortune 100 company reviews from Glassdoor using BeautifulSoup (~40 hours of scraping)
