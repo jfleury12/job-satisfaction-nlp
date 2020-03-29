@@ -1,4 +1,4 @@
-# Job Satisfaction Themes
+# Employee Satisfaction Themes
 ![Office Space](https://thumbs.gfycat.com/CheerfulMassiveDrafthorse-small.gif)
 
 Used unsupervised NLP/NLU to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
