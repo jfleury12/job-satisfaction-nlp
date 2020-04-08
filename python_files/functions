@@ -1,0 +1,57 @@
+from nltk.corpus import stopwords
+
+# Text Preprocessing Functions:
+
+# Regex and tokenizing text:
+# takes text, removes special characters and punctuation 
+# and returns a list of lower-cased tokenized words
+def tokenize_sentences(text):
+    pattern = "([a-zA-Z]+(?:'[a-z]+)?)" 
+    raw_tokens = nltk.regexp_tokenize(text, pattern)
+    return [token.lower() for token in raw_tokens]
+
+# Removing stopwords:
+# removes stopwords from pre-tokenized list of words
+def remove_stopwords(token_list, custom_words= []):
+    return [word for word in token_list if word not in stopwords.words('english')+custom_words]
+
+# Joining a list of words together
+def join_word_list(word_list):
+    return " ".join(word_list)
+
+# Creating part-of-speech tags using the SpaCy package
+# input is a string
+# output is a list of tuples [('I', 'PRON'),('went', 'VERB'),('to', 'ADP'),('the', 'DET'),('store', 'NOUN'),('today', 'NOUN')]
+def create_pos_tokens(review):
+    doc = nlp(review)
+    pos_tag_list = [(token.text, token.pos_) for token in doc]
+    return pos_tag_list
+    
+# Obtaining N-Grams:
+
+# returns most frequent words in corpus
+def get_top_n_words(corpus, n=None):
+    vec = CountVectorizer(ngram_range=(1, 1), stop_words=stopwords.words('english')+custom_stopwords).fit(corpus)
+    bag_of_words = vec.transform(corpus)
+    sum_words = bag_of_words.sum(axis=0) 
+    words_freq = [(word, sum_words[0, idx]) for word, idx in vec.vocabulary_.items()]
+    words_freq =sorted(words_freq, key = lambda x: x[1], reverse=True)
+    return words_freq[:n]
+
+# returns most frequent bigrams in corpus
+def get_top_n_bigram(corpus, n=None):
+    vec = CountVectorizer(ngram_range=(2, 2), stop_words=stopwords.words('english')+custom_stopwords).fit(corpus)
+    bag_of_words = vec.transform(corpus)
+    sum_words = bag_of_words.sum(axis=0) 
+    words_freq = [(word, sum_words[0, idx]) for word, idx in vec.vocabulary_.items()]
+    words_freq =sorted(words_freq, key = lambda x: x[1], reverse=True)
+    return words_freq[:n]
+
+# returns most frequent trigrams in corpus
+def get_top_n_trigram(corpus, n=None):
+    vec = CountVectorizer(ngram_range=(3, 3), stop_words=stopwords.words('english')+custom_stopwords).fit(corpus)
+    bag_of_words = vec.transform(corpus)
+    sum_words = bag_of_words.sum(axis=0) 
+    words_freq = [(word, sum_words[0, idx]) for word, idx in vec.vocabulary_.items()]
+    words_freq =sorted(words_freq, key = lambda x: x[1], reverse=True)
+    return words_freq[:n]
