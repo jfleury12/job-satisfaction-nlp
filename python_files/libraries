@@ -3,6 +3,8 @@ import pandas as pd
 import nltk
 import pickle
 from nltk.corpus import stopwords
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
 
 # Plotting
 import plotly.graph_objs as go
@@ -19,3 +21,6 @@ from gensim import corpora
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from gensim.models.ldamodel import LdaModel
 from gensim.test.utils import datapath
+
+#Outlier analysis
+from scipy.stats import iqr
