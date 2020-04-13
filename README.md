@@ -9,10 +9,10 @@ Currently, when applying for jobs, one of the biggest "black boxes" in the whole
 Secondly, are the companies actually being truthful? It's one thing for a company to receive scathing reviews for bad incentive structures, but if they never promoted that in the first place, it's at least a little forgivable. What is more damning is a complete contradiction between what the employees are saying and what the companies are actively promoting.
 
 ## Central Research Questions
-* **What are the common reasons why people love or hate their jobs?
-* Once topics have been idenitified, which companies excel or fail in these categories?
-* What are the common principles that companies advocate for in their mission/vision statements? 
-* Is there a "mismatch" between what employees believe and what the companies are advocating for?
+* **What are the common reasons why people love or hate their jobs?**
+* **Once topics have been idenitified, which companies excel or fail in these categories?**
+* **What are the common principles that companies advocate for in their mission/vision statements?**
+* **Is there a "mismatch" between what employees believe and what the companies are advocating for?**
 
 ## Data Source
 The data is sourced entirely from Fortune 100 glassdoor.com company reviews (approximately 250,000+).
