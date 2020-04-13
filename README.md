@@ -1,7 +1,7 @@
 # Employee Satisfaction Themes
-<img src="/images/cover_photo.jpg" width="600" height="" />
-
 Used unsupervised NLP/NLU to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
+
+<img src="/images/cover_photo.jpg" width="500" height="" />
 
 ## Background
 Currently, when applying for jobs, one of the biggest "black boxes" in the whole job process is knowing what the company culture is like and whether it would be a good fit for you from a community and ethics point of view. It is possible to scour through company reviews, but this usually takes a considerable amount of time. 
