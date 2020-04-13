@@ -1,5 +1,6 @@
 # Employee Satisfaction Themes
-<img src="../images/cover_photo.jpg" width="600" height="600" />
+![Cover Photo]('/images/cover_photo.jpg')
+<img src="/images/cover_photo.jpg" width="600" height="600" />
 
 Used unsupervised NLP/NLU to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
 
