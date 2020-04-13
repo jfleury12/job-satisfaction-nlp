@@ -19,7 +19,7 @@ The data is sourced entirely from Fortune 100 glassdoor.com company reviews (app
 
 ## Project Files
 
-**Python Notebooks**
+**Python Notebooks:**
 <br>
 [Technical Notebook](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/technical_notebook.ipynb)
 <br>
@@ -31,6 +31,11 @@ The data is sourced entirely from Fortune 100 glassdoor.com company reviews (app
 **Presentation:**
 <br>
 [Presentation Deck](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/Employee_Satisfaction_Presentation.pdf)
+<br>
+
+**.py files:**
+<br>
+[python files](https://github.com/jfleury12/job-satisfaction-nlp/tree/master/python_files)
 <br>
 
 ## Technical Summary
