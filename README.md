@@ -33,9 +33,9 @@ The data is sourced entirely from Fortune 100 glassdoor.com company reviews (app
 [Presentation Deck](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/Employee_Satisfaction_Presentation.pdf)
 <br>
 
-**.py files:**
+**Python Files:**
 <br>
-[python files](https://github.com/jfleury12/job-satisfaction-nlp/tree/master/python_files)
+[Python Files](https://github.com/jfleury12/job-satisfaction-nlp/tree/master/python_files)
 <br>
 
 ## Technical Summary
