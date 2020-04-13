@@ -17,15 +17,23 @@ Secondly, are the companies actually being truthful? It's one thing for a compan
 ## Data Source
 The data is sourced entirely from Fortune 100 glassdoor.com company reviews (approximately 250,000+).
 
-# Project Files
+## Project Files
+
+**Python Notebooks**
 <br>
-[Technical Notebook](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/technical_notebook.ipynb)
+[Technical Notebook]
+(https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/technical_notebook.ipynb)
+<br>
+[Text Preprocessing and Exploratory Data Analysis]
+(https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/text_preprocessing_EDA.ipynb)
+<br>
+[Web Scraping Script]
+(https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/data_scraping.ipynb)
+<br>
+
+**Presentation:**
 <br>
 [Summary Presentation](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/Employee_Satisfaction_Presentation.pdf)
-<br>
-[Text Preprocessing and Exploratory Data Analysis](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/text_preprocessing_EDA.ipynb)
-<br>
-[Web Scraping Script](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/data_scraping.ipynb)
 <br>
 
 ## Technical Summary
