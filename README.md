@@ -17,6 +17,17 @@ Secondly, are the companies actually being truthful? It's one thing for a compan
 ## Data Source
 The data is sourced entirely from Fortune 100 glassdoor.com company reviews (approximately 250,000+).
 
+# Project Files
+<br>
+[Technical Notebook](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/technical_notebook.ipynb)
+<br>
+[Summary Presentation](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/Employee_Satisfaction_Presentation.pdf)
+<br>
+[Text Preprocessing and Exploratory Data Analysis](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/text_preprocessing_EDA.ipynb)
+<br>
+[Web Scraping Script](https://github.com/jfleury12/job-satisfaction-nlp/blob/master/notebooks/data_scraping.ipynb)
+<br>
+
 ## Technical Summary
 * Web-scraped 250,000 Fortune 100 company reviews from Glassdoor using BeautifulSoup (~40 hours of scraping)
 * Used natural language processing with NLTK and SpaCy to tokenize, POS tag, stem, and remove stopwords from the “Pros” and “Cons” section of each review
