@@ -1,5 +1,6 @@
 # Employee Satisfaction Themes
 <img src="../images/job_grayscale.jpg" width="600" height="600" />
+![GitHub Logo](/images/job_grayscale.jpg)
 
 Used unsupervised NLP/NLU to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
 
