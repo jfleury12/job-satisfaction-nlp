@@ -1,5 +1,5 @@
 # Employee Satisfaction Themes
-Used unsupervised NLP/NLU to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
+Used unsupervised NLP to analyze web-scraped company reviews, discover common themes of job satisfaction, and quantify their alignment with company core values
 
 <img src="images/cover_photo.jpg" width="800" height="" />
 
