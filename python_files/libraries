@@ -9,9 +9,9 @@ pd.set_option('display.max_columns', None)
 # Plotting
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.graph_objs as go
-import chart_studio.plotly as py
-import cufflinks # !pip install ipywidgets for cufflinks to work
+import plotly.graph_objs as go #import plotly
+import chart_studio.plotly as py # !pip install chart_studio
+import cufflinks # !pip install ipywidgets and !pip install cufflinksfor cufflinks to work
 cufflinks.go_offline()
 cufflinks.set_config_file(world_readable=True, theme='pearl')
 import plotly.figure_factory as ff
